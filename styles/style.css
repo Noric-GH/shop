@@ -1,0 +1,58 @@
+@import url(/styles/accordion.css);
+@import url(/styles/chackbox.css);
+@import url(/styles/filter.css);
+@import url(/styles/global.css);
+@import url(/styles/search.css);
+@import url(/styles/productCard.css);
+@import url(/styles/priceInputs.css);
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-gap: var(--gutter);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header {
+    width: 1244px;
+    padding: 40px var(--gutter);
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    font-size: 1.4em;
+    color: #111;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+header ul li a:hover {
+    color: #bdbdbd;
+}
+
+.exxxx {
+    height: 1000px;
+}

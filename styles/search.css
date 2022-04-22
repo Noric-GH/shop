@@ -1,0 +1,32 @@
+.search__box{
+    padding: 0 0 var(--gutter) 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.search__box input:hover,
+.search__box input:focus {
+    /* background: #2e3644; */
+    opacity: 0.9;
+}
+.search__box i{
+    position: absolute;
+    z-index: 2;
+    color: var(--color-natural_w);
+    top: 5px;
+    left: 11px;
+    transform: translateY(50%);
+}
+.search__box input{
+    position: relative;
+    width: 100%;
+    height:42px;
+    outline: none;
+    border:none;
+    background-color: var(--color-natural_b);
+    color: var(--color-natural_w);
+    padding: 0 15px 0 45px;
+    border-radius:0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/styles/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+	<header>
+		<a href="#" class="logo">DvaGlass</a>
+		<ul>
+			<li><a href="#">Магазин</a></li>
+			<li><a href="#">О нас</a></li>
+			<li><a href="#">Доставка</a></li>
+			<li><a href="#">Контаты</a></li>
+		</ul>
+	</header>
+	<div class="container">
+		<div class="products-content grid-container">
+			<div class="filters">
+				<div class="filters__item filters-price">
+					<div class="filterBy">
+						<div class="search__box">
+							<i class="fa-solid fa-magnifying-glass"></i>
+							<input type="text" placeholder="Искать по названию">
+						</div>
+						<div class="accordion">
+							<div class="contentBx">
+								<div class="lable">Колекция</div>
+								<hr>
+								</hr>
+								<div class="content">
+									<nav>
+										<ul>
+											<li data-f="all">Все</li>
+											<li data-f="new" class="text-alizarin">Новые</li>
+											<li data-f="expensive" class="text-wisteria">Дорогие</li>
+											<li data-f="inexpensive" class="text-wisteria">Дешевые</li>
+										</ul>
+									</nav>
+								</div>
+								<!--Content-->
+							</div>
+							<!--ContentBX-->
+						</div>
+						<div class="accordion">
+							<div class="contentBx">
+								<div class="lable">Зум</div>
+
+								<div class="content">
+									<nav>
+										<ul>
+											<li data-f="noZoom" class="text-wisteria">Без зума</li>
+											<li data-f="circleZoom" class="text-wisteria">С зумом (круг)</li>
+										</ul>
+									</nav>
+								</div>
+								<hr>
+								</hr>
+							</div>
+						</div>
+						<div class="accordion">
+							<div class="contentBx">
+								<div class="lable">Включение</div>
+
+								<div class="content">
+									<nav>
+										<ul>
+											<li data-f="wisteria" class="text-wisteria">Взмах рукой</li>
+											<li data-f="wisteria" class="text-wisteria">Touch bar</li>
+										</ul>
+									</nav>
+								</div>
+								<hr>
+								</hr>
+							</div>
+						</div>
+					</div>
+					<!--filterBy--->
+					<h3 class="filters-price__title">Цена</h3>
+					<div class="filters-price__slider"></div>
+					<div class="filters-price__inputs">
+						<input type="text" class="filters-price__input">
+						<input type="text" class="filters-price__input">
+					</div>
+					<div class="form-group">
+						<label>
+							<input type="checkbox" name="coding-notes" class="real-checkbox">
+							<span class="custom-checkbox"></span>
+							Заметки программиста
+						</label>
+					</div>
+					<!--Accordion-->
+				</div>
+				<!----filters__item filters-price-->
+
+			</div>
+			<!--filters--->
+			<ul class="products-grid">
+				<li class="products-grid__item">
+					<div class="product__card box new">
+						<div class="card">
+							<div class="card__content">
+								<a href="#" class="card__subtitle">
+									Посмотреть</a>
+							</div>
+
+						</div>
+						<div class="card-price__content">
+							<h2 class="card__title">
+								ARIA
+							</h2>
+							<p class="card-price__subtitle">12 000,00 ₽</p>
+							<a href="#" class="button">Купить</a>
+						</div>
+					</div>
+				</li>
+				<li class="products-grid__item">
+					<div class="product__card box new">
+						<div class="card">
+							<div class="card__content">
+								<a href="#" class="card__subtitle">
+									Посмотреть</a>
+							</div>
+
+						</div>
+						<div class="card-price__content">
+							<h2 class="card__title">
+								ARIA
+							</h2>
+							<p class="card-price__subtitle">12 000,00 ₽</p>
+							<a href="#" class="button">Купить</a>
+						</div>
+					</div>
+				</li>
+				<li class="products-grid__item">
+					<div class="product__card">
+						<div class="card">
+							<div class="card__content">
+								<a href="#" class="card__subtitle">
+									Посмотреть</a>
+							</div>
+
+						</div>
+						<div class="card-price__content">
+							<h2 class="card__title">
+								ARIA
+							</h2>
+							<p class="card-price__subtitle">12 000,00 ₽</p>
+							<a href="#" class="button">Купить</a>
+						</div>
+					</div>
+				</li>
+				<li class="products-grid__item">
+					<div class="product__card">
+						<div class="card">
+							<div class="card__content">
+								<a href="#" class="card__subtitle">
+									Посмотреть</a>
+							</div>
+
+						</div>
+						<div class="card-price__content">
+							<h2 class="card__title">
+								ARIA
+							</h2>
+							<p class="card-price__subtitle">12 000,00 ₽</p>
+							<a href="#" class="button">Купить</a>
+						</div>
+					</div>
+				</li>
+				<li class="products-grid__item">
+					<div class="product__card">
+						<div class="card">
+							<div class="card__content">
+								<a href="#" class="card__subtitle">
+									Посмотреть</a>
+							</div>
+
+						</div>
+						<div class="card-price__content">
+							<h2 class="card__title">
+								ARIA
+							</h2>
+							<p class="card-price__subtitle">12 000,00 ₽</p>
+							<a href="#" class="button">Купить</a>
+						</div>
+					</div>
+				</li>
+				<li class="products-grid__item">
+					<div class="product__card">
+						<div class="card">
+							<div class="card__content">
+								<a href="#" class="card__subtitle">
+									Посмотреть</a>
+							</div>
+
+						</div>
+						<div class="card-price__content">
+							<h2 class="card__title">
+								ARIA
+							</h2>
+							<p class="card-price__subtitle">12 000,00 ₽</p>
+							<a href="#" class="button">Купить</a>
+						</div>
+					</div>
+				</li>
+				<li class="products-grid__item">
+					<div class="product__card">
+						<div class="card">
+							<div class="card__content">
+								<a href="#" class="card__subtitle">
+									Посмотреть</a>
+							</div>
+
+						</div>
+						<div class="card-price__content">
+							<h2 class="card__title">
+								ARIA
+							</h2>
+							<p class="card-price__subtitle">12 000,00 ₽</p>
+							<a href="#" class="button">Купить</a>
+						</div>
+					</div>
+				</li>
+				<li class="products-grid__item">
+					<div class="product__card">
+						<div class="card">
+							<div class="card__content">
+								<a href="#" class="card__subtitle">
+									Посмотреть</a>
+							</div>
+
+						</div>
+						<div class="card-price__content">
+							<h2 class="card__title">
+								ARIA
+							</h2>
+							<p class="card-price__subtitle">12 000,00 ₽</p>
+							<a href="#" class="button">Купить</a>
+						</div>
+					</div>
+				</li>
+				<li class="products-grid__item">
+					<div class="product__card">
+						<div class="card">
+							<div class="card__content">
+								<a href="#" class="card__subtitle">
+									Посмотреть</a>
+							</div>
+
+						</div>
+						<div class="card-price__content">
+							<h2 class="card__title">
+								ARIA
+							</h2>
+							<p class="card-price__subtitle">12 000,00 ₽</p>
+							<a href="#" class="button">Купить</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="exxxx"></div>
+
+	<script src="/js/accordion.js"></script>
+	<script src="/js/fixedCashInput.js"></script>
+	<script src="/js/filterChash.js"></script>
+	<script src="/js/main.js"></script>
+
+</body>
+
+</html>

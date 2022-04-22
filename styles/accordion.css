@@ -1,0 +1,46 @@
+.accordion {
+  max-width: 550px;
+  min-width: 200px;
+  margin: 0 0 20px 0;
+}
+
+.accordion .contentBx {
+  position: relative;
+  /* margin: 10px 20px; */
+}
+
+.accordion .contentBx .lable {
+  position: relative;
+  padding: 10px;
+  background-color: #fff;
+  color: #242a35;
+  cursor: pointer;
+}
+
+.accordion .contentBx .lable::before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.accordion .contentBx.active .lable::before {
+  content: '-';
+  transition: 0.5s;
+}
+
+.accordion .contentBx .content {
+  position: relative;
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.accordion .contentBx.active .content {
+  height: 100%;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+}

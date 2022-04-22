@@ -1,0 +1,58 @@
+.card {
+    color: var(--color-natural_w);
+    background-image: url(https://static.wixstatic.com/media/50e8cf_e901e9379a2f4c2c81267d05b37f15f4~mv2.jpg/v1/fill/w_432,h_576,al_c,lg_1,q_85/50e8cf_e901e9379a2f4c2c81267d05b37f15f4~mv2.webp);
+    background-size: cover;
+    padding: 19.5rem 0 0 0;
+    max-width: 37ch;
+    height: 37ch;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.card__content {
+    padding: 1.5rem;
+    font-size: 20px;
+    text-align: center;
+    background: rgba(197, 194, 194, 0.2);
+    color:var(--color-natural_b);
+    transform: translateY(100%);
+    transition: transform .7s ease-in-out;
+}
+
+
+.card:hover .card__content {
+    transform: translateX(0);
+}
+.card__content a:hover{
+    color: var(--color-natural_w);
+}
+.card-price__content{
+    color: var(--color-natural_b);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.card-price__subtitle{
+    cursor: pointer;
+    font-size: 20px;
+}
+.card-price__subtitle a{
+    text-align: center;
+}
+
+.button {
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    color: var(--color-natural_w);
+    background-color: var(--color-natural_b);
+    padding: 0.5em 1.25em;
+    transition: .3s ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+    background: rgba(88, 87, 87, 0.2);;
+    color: var(--color-natural_b);
+}

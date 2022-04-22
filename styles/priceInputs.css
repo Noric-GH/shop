@@ -1,0 +1,21 @@
+.filters-price__input {
+	width: 100%;
+}
+
+.filters-price__inputs input {
+	height: 35px;
+	display: flex;
+	margin: 0 0 5px 0;
+	border: 3px solid #2e3644;
+	border-radius: 6px;
+	transition: .3s ease-in-out;
+	font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.filters-price__inputs input:hover,
+.filters-price__inputs input:focus {
+	outline: none;
+	border: 3px solid rgba(46, 54, 68, 0.607);
+}
