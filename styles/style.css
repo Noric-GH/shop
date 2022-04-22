@@ -1,10 +1,10 @@
-@import url(/styles/accordion.css);
-@import url(/styles/chackbox.css);
-@import url(/styles/filter.css);
-@import url(/styles/global.css);
-@import url(/styles/search.css);
-@import url(/styles/productCard.css);
-@import url(/styles/priceInputs.css);
+@import url(/shop/styles/accordion.css);
+@import url(/shop/styles/chackbox.css);
+@import url(/shop/styles/filter.css);
+@import url(/shop/styles/global.css);
+@import url(/shop/styles/search.css);
+@import url(/shop/styles/productCard.css);
+@import url(/shop/styles/priceInputs.css);
 
 .grid-container {
     width: 100%;
