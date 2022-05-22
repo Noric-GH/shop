@@ -1,4 +1,4 @@
-.accordion {
+/* .accordion {
   max-width: 550px;
   min-width: 200px;
   margin: 0 0 20px 0;
@@ -6,7 +6,6 @@
 
 .accordion .contentBx {
   position: relative;
-  /* margin: 10px 20px; */
 }
 
 .accordion .contentBx .lable {
@@ -43,4 +42,33 @@
   height: 100%;
   margin: 0px 0px 10px 0px;
   padding: 10px;
+} */
+
+
+
+.accordion {
+  position: relative;
+  padding: 10px;
+  background-color: #fff;
+  color: rgb(36, 42, 53);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border:none;
+  width: 100%;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: rgba(36, 42, 53, .05);
+  border-radius: 2px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
